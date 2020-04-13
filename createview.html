@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP: Simple-CRUD</title>
+</head>
+
+<body>
+    <h1>PHP: Simple-CRUD</h1>
+    <h2>CreateView</h2>
+
+    <form action="index.php" method="post">
+        <label for="inputVorname">Vorname</label>
+        <input type="text" name="vorname" id="inputVorname">
+
+        <label for="inputNachname">Nachname</label>
+        <input type="text" name="nachname" id="inputNachname">
+
+        <input type="hidden" name="action" value="create">
+        <button>Save</button>
+
+        <a href="index.php">Cancel</a>
+    </form>
+</body>
+
+</html>
